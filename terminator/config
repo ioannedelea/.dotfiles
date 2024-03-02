@@ -1,0 +1,20 @@
+[global_config]
+  handle_size = 2
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.85
+    background_type = transparent
+    font = JetBrainsMono Nerd Font 14
+    show_titlebar = False
+    scrollbar_position = hidden
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
